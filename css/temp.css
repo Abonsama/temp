@@ -5,9 +5,7 @@
     --section-padding: 60px;
     --section-background: #f6f6f6;
 }
-html{
-    scroll-behavior:smooth;
-}
+
 /* vars */
 /* global rules*/
 * {
@@ -89,7 +87,9 @@ body {
         margin: -15px 0 0;
     }
 }
-
+html {
+    scroll-behavior: smooth;
+}
 /* component */
 
 header .container {
